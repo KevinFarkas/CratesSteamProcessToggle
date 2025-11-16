@@ -7,7 +7,7 @@ using Microsoft.Win32;
 
 namespace CratesSteamProcessToggle
 {
-    public class MainForm : Form
+    public class SteamForm : Form
     {
         private Button btnKillSteam;
         private Button btnStartSteam;
@@ -29,7 +29,7 @@ namespace CratesSteamProcessToggle
             "gameoverlayui"
         };
 
-        public MainForm()
+        public SteamForm()
         {
             InitializeComponents();
             RefreshSteamProcessList();
